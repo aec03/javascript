@@ -1,0 +1,23 @@
+* {
+  display: flexbox;
+  text-align: center;
+  font-family: Gotham;
+  background-color: #f1f1f1;
+  color: #c1c1c1;
+}
+
+#menu {
+    padding: 10px;
+    padding-left: 20px;
+    justify-content: center;
+    height: 50px;
+    width: 240px;
+    border: 2px solid #c1c1c1;
+    border-radius: 5px;
+    appearance: none;
+    color: #696969;
+}
+
+h1 {
+  font-size: 80px;
+}

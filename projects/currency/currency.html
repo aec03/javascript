@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <script defer src="currency.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ff25aecd2c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="page">
+      <h1>Currency Exchange:</h1>
+      <div id="content">
+        <form id="form" autocomplete="off" method="GET">
+          <i id="icon" class="fas fa-dollar-sign" aria-hidden="true"></i>
+          <input type="number" step=".01" id="amount" placeholder="Amount" />
+          <input type="text" id="currency" placeholder="Currency" />
+          <input id="submit" type="submit" value="Convert" />
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+  </body>
+</html>

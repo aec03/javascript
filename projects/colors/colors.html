@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // change font color to button color
+        document.querySelector("select").onchange = function() {
+          document.querySelector("#hello").style.color = this.value;
+        }
+      });
+    </script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="hello">Hello!</h1>
+    <div class="box">
+      <select id="menu">
+        <option value="#c1c1c1">Grey</option>
+        <option value="#D01333">Red</option>
+        <option value="#177BCD">Blue</option>
+      </select>
+    </div>
+  </body>
+</html>
