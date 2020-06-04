@@ -17,6 +17,15 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  color: #c1c1c1;
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
 #page {
   position: absolute;
   width: 100%;
@@ -46,6 +55,19 @@ input {
   transition: 0.5s;
 }
 
+#changeText:hover {
+  color: #e91e63;
+  cursor: pointer;
+}
+
+#form:focus-within #icon {
+  color: #c2185b;
+}
+
+.amt:hover #icon:hover {
+  color: #c2185b;
+}
+
 #currency {
   background: #f1f1f1;
   width: 240px;
@@ -68,14 +90,6 @@ input {
 #currency:focus {
   border-color: #c2185b;
   color: #c2185b;
-}
-
-#form:focus-within #icon {
-  color: #e91e63;
-}
-
-#form:hover #icon {
-  color: #e91e63;
 }
 
 #submit {
@@ -131,6 +145,10 @@ input {
 #amount:focus {
   border-color: #c2185b;
   color: #c2185b;
+}
+
+#amt:focus-within #icon {
+  color: #e91e63;
 }
 
 #result {

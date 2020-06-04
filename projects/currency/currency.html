@@ -16,11 +16,22 @@
       <h1>Currency Exchange:</h1>
       <div id="content">
         <form id="form" autocomplete="off" method="GET">
-          <i id="icon" class="fas fa-dollar-sign" aria-hidden="true"></i>
-          <input type="number" step=".01" id="amount" placeholder="Amount" />
+          <i id="icon" class="fas fa-dollar-sign amt" aria-hidden="true"></i>
+          <input
+            type="number"
+            step=".01"
+            id="amount"
+            placeholder="Amount"
+            class="amt"
+          />
           <input type="text" id="currency" placeholder="Currency" />
           <input id="submit" type="submit" value="Convert" />
         </form>
+        <div
+          onclick='document.getElementById("changeText").innerHTML = "EUR&emsp;|&emsp;GBP&emsp;|&emsp;JPY&emsp;|&emsp;CHF&emsp;|&emsp;AUD&emsp;|&emsp;CAD"'
+        >
+          <h2 id="changeText">Common Codes:</h2>
+        </div>
         <div id="result"></div>
       </div>
     </div>
