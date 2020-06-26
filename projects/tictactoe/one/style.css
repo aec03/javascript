@@ -222,7 +222,7 @@ body {
 }
 
 .starting-message h1 {
-  font-size: .5em;
+  font-size: 2rem;
 }
 
 .starting-message.show {
