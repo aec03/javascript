@@ -138,8 +138,9 @@ body {
   border: 3px solid var(--color);
   color: white;
   border-radius: 15px;
-  padding: 0.25em 0.5em;
+  padding: 0.25em 1em;
   cursor: pointer;
+  margin: 10px;
 }
 
 .winning-message button:hover {
@@ -193,7 +194,8 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--color);
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
   flex-direction: column;
 }
 
@@ -217,6 +219,10 @@ body {
   background-color: white;
   color: var(--color);
   border: 5px solid var(--color);
+}
+
+.starting-message h1 {
+  font-size: .5em;
 }
 
 .starting-message.show {
